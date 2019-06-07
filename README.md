@@ -1,8 +1,9 @@
 # Hello Scala Play
 Testing out the Scala Play framework w/ their Hello World tutorial.
 
-If you want to do something similar, you can find their documentation [here](https://www.playframework.com/getting-started)
-The starter app template I used is also found on [Github](https://github.com/playframework/play-samples/tree/2.7.x/play-scala-hello-world-tutorial)
+If you want to do something similar, you can find their documentation [here](https://www.playframework.com/getting-started).
+
+The starter app template I used is also found on [Github](https://github.com/playframework/play-samples/tree/2.7.x/play-scala-hello-world-tutorial).
 
 More examples beyond the initial documentation can be found here: 
 https://developer.lightbend.com/start/?group=play
@@ -19,16 +20,22 @@ There's also something called Scala.js that might be useful too.
 Some links for further research:
 
 -Scala.js
+
 https://www.scala-js.org/libraries/facades.html
+
 http://www.lihaoyi.com/hands-on-scala-js/
 
 -Vue
+
 https://github.com/GIVESocialMovement/sbt-vuefy
+
 https://github.com/fancellu/scalajs-vue
 
 
 -React
+
 https://github.com/japgolly/scalajs-react
+
 Some nice examples here w/ React: https://japgolly.github.io/scalajs-react/#examples/hello
 
 
