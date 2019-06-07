@@ -27,7 +27,7 @@ Seq[Any](_display_(/*1.2*/main("Hello")/*1.15*/ {_display_(Seq[Any](format.raw/*
     """),format.raw/*2.5*/("""<section id="content">
         <div class= "wrapper doc">
             <article>
-                <h1>Hello World</h1>
+                <h1>Hello World!</h1>
             </article>
             <aside>
                 """),_display_(/*8.18*/commonSidebar()),format.raw/*8.33*/("""
@@ -36,7 +36,6 @@ Seq[Any](_display_(/*1.2*/main("Hello")/*1.15*/ {_display_(Seq[Any](format.raw/*
         </div>
 
     </section>
-
 """)))}))
       }
     }
@@ -53,10 +52,10 @@ Seq[Any](_display_(/*1.2*/main("Hello")/*1.15*/ {_display_(Seq[Any](format.raw/*
 
               /*
                   -- GENERATED --
-                  DATE: Fri Jun 07 11:03:57 MDT 2019
+                  DATE: Fri Jun 07 11:22:49 MDT 2019
                   SOURCE: /Users/paul.russavage/projects/play-samples-play-scala-hello-world-tutorial/app/views/hello.scala.html
-                  HASH: 535c6f7c199edc64402dfb4c5e3f118a8d5445ed
-                  MATRIX: 811->1|832->14|871->16|902->21|1105->198|1140->213|1180->226
+                  HASH: 33b9156ab276289d09a0d247c0e64c73c51d2491
+                  MATRIX: 811->1|832->14|871->16|902->21|1106->199|1141->214|1181->227
                   LINES: 26->1|26->1|26->1|27->2|33->8|33->8|34->9
                   -- GENERATED --
               */

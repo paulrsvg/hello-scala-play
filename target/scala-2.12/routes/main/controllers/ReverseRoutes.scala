@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/paul.russavage/projects/play-samples-play-scala-hello-world-tutorial/conf/routes
-// @DATE:Thu Jun 06 13:30:56 MDT 2019
+// @DATE:Fri Jun 07 11:22:48 MDT 2019
 
 import play.api.mvc.Call
 
@@ -16,6 +16,12 @@ package controllers {
       if (_prefix.endsWith("/")) "" else "/"
     }
 
+  
+    // @LINE:10
+    def hello(): Call = {
+      
+      Call("GET", _prefix + { _defaultPrefix } + "hello")
+    }
   
     // @LINE:7
     def index(): Call = {

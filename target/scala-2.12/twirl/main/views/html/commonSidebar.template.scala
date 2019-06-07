@@ -30,10 +30,11 @@ Seq[Any](format.raw/*1.4*/("""
   <li><a href=""""),_display_(/*5.17*/routes/*5.23*/.HomeController.index),format.raw/*5.44*/("""#Introduction">Welcome</a>
   <li><a href=""""),_display_(/*6.17*/routes/*6.23*/.HomeController.explore),format.raw/*6.46*/("""">Play application overview</a>
   <li><a href=""""),_display_(/*7.17*/routes/*7.23*/.HomeController.tutorial),format.raw/*7.47*/("""">Implementing Hello World</a>
+  <li><a href=""""),_display_(/*8.17*/routes/*8.23*/.HomeController.hello),format.raw/*8.44*/("""">Hello World Test</a>
 </ul>
 <h3>Related Resources</h3>
 <ul>
-  <li><a href="https://playframework.com/documentation/"""),_display_(/*11.57*/version),format.raw/*11.64*/("""" target="_blank">Play documentation</a></li>
+  <li><a href="https://playframework.com/documentation/"""),_display_(/*12.57*/version),format.raw/*12.64*/("""" target="_blank">Play documentation</a></li>
   <li><a href="https://discuss.lightbend.com/c/play/" target="_blank">Forum</a></li>
   <li><a href="//gitter.im/playframework/playframework" target="_blank">Gitter Channel</a></li>
   <li><a href="//stackoverflow.com/questions/tagged/playframework" target="_blank">Stackoverflow</a></li>
@@ -55,11 +56,11 @@ Seq[Any](format.raw/*1.4*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Thu Jun 06 13:30:57 MDT 2019
+                  DATE: Fri Jun 07 11:24:34 MDT 2019
                   SOURCE: /Users/paul.russavage/projects/play-samples-play-scala-hello-world-tutorial/app/views/commonSidebar.scala.html
-                  HASH: 1885f2d2fc536bc352678797f7f16958879d90c1
-                  MATRIX: 730->1|826->3|854->6|901->45|951->58|979->60|1055->110|1069->116|1110->137|1180->181|1194->187|1237->210|1312->259|1326->265|1370->289|1526->418|1554->425
-                  LINES: 21->1|26->1|27->2|27->2|27->2|28->3|30->5|30->5|30->5|31->6|31->6|31->6|32->7|32->7|32->7|36->11|36->11
+                  HASH: ef155ff31e96bd7551f41ff09753e001891c9314
+                  MATRIX: 730->1|826->3|854->6|901->45|951->58|979->60|1055->110|1069->116|1110->137|1180->181|1194->187|1237->210|1312->259|1326->265|1370->289|1444->337|1458->343|1499->364|1647->485|1675->492
+                  LINES: 21->1|26->1|27->2|27->2|27->2|28->3|30->5|30->5|30->5|31->6|31->6|31->6|32->7|32->7|32->7|33->8|33->8|33->8|37->12|37->12
                   -- GENERATED --
               */
           
