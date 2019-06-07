@@ -1,37 +1,35 @@
-# Play Hello World Web Tutorial for Scala
+# Hello Scala Play
+Testing out the Scala Play framework w/ their Hello World tutorial.
 
-To follow the steps in this tutorial, you will need the correct version of Java and sbt. The template requires:
+If you want to do something similar, you can find their documentation [here](https://www.playframework.com/getting-started)
+The starter app template I used is also found on [Github](https://github.com/playframework/play-samples/tree/2.7.x/play-scala-hello-world-tutorial)
 
-* Java Software Developer's Kit (SE) 1.8 or higher
-* sbt 0.13.15 or higher (we recommend 1.2.3) Note: if you downloaded this project as a zip file from https://developer.lightbend.com, the file includes an sbt distribution for your convenience.
+More examples beyond the initial documentation can be found here: 
+https://developer.lightbend.com/start/?group=play
 
-To check your Java version, enter the following in a command window:
+## Initial Thoughts
+Reminds me a bit of a php mvc. You can write a function that contains your html in a separate file or wherever, 
+then you call that function in your template view, as long as you have the fxn for it in the home controller. 
+Once you have a new page ready, just add it to the `conf/routes` file, recompile with `sbt run` and you're good to go!
 
-```bash
-java -version
-```
+## Future Work
+Would be great to figure out how to integrate the Play framework with a UI JS framework like Vue or React. As well as including build tools such as npm or webpack.
+There's also something called Scala.js that might be useful too.
 
-To check your sbt version, enter the following in a command window:
+Some links for further research:
 
-```bash
-sbt sbt-version
-```
+-Scala.js
+https://www.scala-js.org/libraries/facades.html
+http://www.lihaoyi.com/hands-on-scala-js/
 
-If you do not have the required versions, follow these links to obtain them:
+-Vue
+https://github.com/GIVESocialMovement/sbt-vuefy
+https://github.com/fancellu/scalajs-vue
 
-* [Java SE](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
-* [sbt](http://www.scala-sbt.org/download.html)
 
-## Build and run the project
+-React
+https://github.com/japgolly/scalajs-react
+Some nice examples here w/ React: https://japgolly.github.io/scalajs-react/#examples/hello
 
-This example Play project was created from a seed template. It includes all Play components and an Akka HTTP server. The project is also configured with filters for Cross-Site Request Forgery (CSRF) protection and security headers.
 
-To build and run the project:
 
-1. Use a command window to change into the example project directory, for example: `cd play-scala-hello-world-web`
-
-2. Build the project. Enter: `sbt run`. The project builds and starts the embedded HTTP server. Since this downloads libraries and dependencies, the amount of time required depends partly on your connection's speed.
-
-3. After the message `Server started, ...` displays, enter the following URL in a browser: <http://localhost:9000>
-
-The Play application responds: `Welcome to the Hello World Tutorial!`
