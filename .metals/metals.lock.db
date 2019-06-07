@@ -1,0 +1,6 @@
+#FileLock
+#Thu Jun 06 14:56:12 MDT 2019
+hostName=mbp-400035918.apex.local
+id=16b2e93e25b59af3931e59922f91a0b621b266454f3
+method=file
+server=192.168.1.110\:55163
